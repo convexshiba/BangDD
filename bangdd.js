@@ -13,7 +13,7 @@ function bangToAdd() {
 
 /** Allow user to configure */
 function haveToClickSearch() {
-    return true;
+    return false;
 }
 
 /** Main Action on button click */
