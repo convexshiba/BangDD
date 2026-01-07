@@ -1,7 +1,7 @@
 // Configuration Object
 const CONFIG = {
     ID_SEARCH_FORM: "search_form_input",
-    ID_SEARCH_BUTTON: "search_button",
+    ID_SEARCH_BUTTON: "bang_it",
     ID_DUCKBAR: "#react-duckbar ul",
     BANG_TO_ADD: "!g"
 };
@@ -13,7 +13,7 @@ function bangToAdd() {
 
 /** Allow user to configure */
 function haveToClickSearch() {
-    return false;
+    return true;
 }
 
 /** Main Action on button click */
